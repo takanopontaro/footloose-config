@@ -1,0 +1,16 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-config-idiomatic-order"
+  ],
+  "rules": {
+    "max-nesting-depth": null,
+    "order/properties-alphabetical-order": null,
+    "scss/at-mixin-pattern": "^[a-z](|[\\w-]*[a-zA-Z0-9])$",
+    "scss/dollar-variable-pattern": "^[a-z](|[\\w-]*[a-zA-Z0-9])$",
+    "scss/percent-placeholder-pattern": "^[a-z](|[\\w-]*[a-zA-Z0-9])$",
+    "selector-class-pattern": "^[a-z](|[\\w-]*[a-zA-Z0-9])$",
+    "selector-max-compound-selectors": null,
+    "selector-no-qualifying-type": [true, { "ignore": ["attribute"] }]
+  }
+}

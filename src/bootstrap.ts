@@ -97,7 +97,7 @@ const getKeyMaps: IGetKeyMaps = async function getKeyMaps(allExports) {
         directory.processActiveRow();
       },
       'backspace, del': () => {
-        directory.changeDirectory('..');
+        directory.changeToParentDirectory();
       },
       'home,end': async (combo) => {
         const activeRow = await directory.getActiveRow();
